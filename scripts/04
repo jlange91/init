@@ -1,0 +1,9 @@
+#!/bin/bash
+SUM=`md5sum /etc/crontab | cut -d " " -f 1`
+NEWSUM=`cat /root/cronhash`
+
+if [ "$SUM" != "$NEWSUM" ]
+then
+	md5sum /etc/crontab | cut -d " " -f 1 > /root/cronhash
+	mail -s "The crontab file was modified" root < /etc/crontab
+fi

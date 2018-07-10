@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -Sp $1/ | grep -v "/"

@@ -1,0 +1,7 @@
+# Figure out the exact size of each folder of /var
+#
+du --max-depth=1 /var/
+#
+# man du: "estimate file space usage"
+# --max-depth print the total for a directory only if it is N or fewer levels 
+# below the command line argument

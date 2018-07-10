@@ -1,0 +1,5 @@
+# Find the command which gives the list of firewall rules
+#
+iptables -L
+# man iptables: "administration tool for IPv4/IPv6 packet filtering and NAT"
+# -L : "List all rules in the selected chain"

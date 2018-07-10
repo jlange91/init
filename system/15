@@ -1,0 +1,6 @@
+# Find the command that kills the background command’s process
+#
+pkill tail
+#
+# man pkill: "signal processes based on name"
+# kill doesn't work here since it requires a PID

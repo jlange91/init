@@ -1,0 +1,5 @@
+# With the previous command, forbid all others
+#
+iptables -A INPUT -j DROP
+#
+# all entries (INPUT) will be ignored (DROP)

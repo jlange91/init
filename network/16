@@ -1,0 +1,4 @@
+# Pour cela la commande a éxécuter est celle-ci
+# echo "46.19.122.85   intra.42.fr" >> /etc/hosts
+#
+# mais on a pas les droits d'écriture sur ce fichier... rip

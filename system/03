@@ -1,0 +1,5 @@
+# What file has to be modified to make it permanent?
+#
+# The file to modify is /etc/hostname
+#
+# example : echo "yourname" > /etc/hostname

@@ -1,0 +1,2 @@
+# Le fichier dans lequel se trouve l'ip du serveur DNS utilise a pour chemin complet /etc/resolv.conf
+cat /etc/resolv.conf
